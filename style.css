@@ -1,0 +1,48 @@
+h1{
+
+	color: white;
+}
+body, html {
+
+	margin: 10px;
+	padding: 10px;
+}
+body{
+
+	background: url(./img/anhnen.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+img{
+
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+}
+header {
+	margin-top: 1em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;;
+	align-items: center;
+}
+header > img {
+	width: 9em;
+	height: 9em;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	box-shadow: red 0px 2px 8px 0px;
+}
+header > h1 {
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: bold;
+	border-radius: 2em;
+	background-color: #000;
+	color:  #fff;
+}
+
+
+
+
+
